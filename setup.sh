@@ -11,5 +11,5 @@ toplevel_path=`git rev-parse --show-toplevel`
 afplay -v 0.1 $toplevel_path/.git/hooks/happykids.wav > /dev/null 2>&1 &
 EOF
 
-sudo chmod 755 $ROOT_DIR/.git/hooks/post-commit
+chmod 755 $ROOT_DIR/.git/hooks/post-commit
 cd -
